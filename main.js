@@ -1,12 +1,43 @@
-// Student name
-// Current date
+// Ethan lawrence
+// May 6
 // JS IF Statements
 
-// Open the instructions.md file in VS Code (click
-// the icon in the top right corner of your screen 
-// with the magnifying glass on it to view the markdown (.md) file)
+// // Demo 1 
+    // const firstName = 'Elisabeth';
+    // console.log (`Hello ${firstName}`);
 
-// Add the code for your three demos here
+    // if (firstName.length > 7) {
+    //     console.log (`WOW! you have a realy long name ${firstName.length} Characters`)
+    // };
 
-// Comment out the previous demo code before running
-// your current demo code
+    // console.log ('\n')
+
+//     // Demo 2 
+    // const fName = 'Nickolas';
+    // console.log (`Hello ${fName}`);
+
+    // if (fName.length > 7) {
+    //     console.log ('Dude, you have a REALY long name!');
+    // } else {
+    //     console.log (`Your name isn't very long, ${fName} is it?`);
+    // };
+
+// console.log ('\n')
+
+// Demo 3
+const age = parseInt(prompt('Enter your age: (Example 16)'));
+
+if (age < 3) {
+    const message = 'You\'re still just a baby!';
+    console.log (message);
+} else if (age < 18) {
+    const message = 'You\'re not yet an adult';
+    console.log (message);
+} else if (age < 100) {
+    const message = 'Almost at the centry mark!';
+    console.log (message);
+} else {
+    const message = 'What an unusual age!';
+    console.log (message);
+}
+
